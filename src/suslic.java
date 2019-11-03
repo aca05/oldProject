@@ -1,4 +1,4 @@
-public class Dok {
+public class suslic {
     private String name;
     private String weight;
     private String color;
@@ -18,7 +18,7 @@ public class Dok {
         this.weight = weight;
     }
     public String getColor() {
-    return this.color;
+        return this.color;
     }
 
     public void setColor(String color) {
@@ -30,6 +30,4 @@ public class Dok {
     public String getall_data(){
         return "Кличка "+ getName()+"\nВес "+ getWeight()+ "\nЦвет "+ getColor();
     }
-
-    //дурочка набитая
 }
