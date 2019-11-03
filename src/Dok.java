@@ -30,4 +30,6 @@ public class Dok {
     public String getall_data(){
         return "Кличка "+ getName()+"\nВес "+ getWeight()+ "\nЦвет "+ getColor();
     }
+
+    //comment
 }
